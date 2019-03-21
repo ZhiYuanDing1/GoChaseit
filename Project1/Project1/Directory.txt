@@ -1,0 +1,14 @@
+.Project1                          # Build My World Project 
+    ├── model                          # Model files 
+    │   ├── Building
+    │   │   ├── model.config
+    │   │   ├── model.sdf
+    │   ├── HumanoidRobot2
+    │   │   ├── model.config
+    │   │   ├── model.sdf
+    ├── script                         # Gazebo World plugin C++ script      
+    │   ├── welcome_message.cpp
+    ├── world                          # Gazebo main World containing models 
+    │   ├── UdacityWorld
+    ├── CMakeLists.txt                 # Link libraries 
+    └──                              
